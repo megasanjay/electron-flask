@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron-Flask Calculator!</title>
+    <link rel="stylesheet" href="./node_modules/spectre.css/dist/spectre.css" />
+
+    <style>
+      body,
+      html {
+        background-color: rgb(224, 223, 223);
+        height: 99%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      #result {
+        margin: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <p>Input something like <code>1 + 1</code>.</p>
+      <p>
+        This calculator supports <code>+-*/^()</code>, whitespaces, and integers
+        and floating numbers.
+      </p>
+
+      <div class="form-group">
+        <input
+          class="form-input"
+          type="text"
+          id="inputExpression"
+          placeholder="1 + 2"
+        />
+      </div>
+      <button class="btn btn-primary" id="calcSum">Calculate</button>
+      <span class="label" id="result"></span>
+    </div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>

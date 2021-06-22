@@ -1,0 +1,26 @@
+{
+  "name": "electron-flask",
+  "version": "1.0.0",
+  "description": "A minimal Electron and Flask application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/megasanjay/electron-flask",
+  "keywords": [
+    "Electron",
+    "Flask",
+    "Python",
+    "demo"
+  ],
+  "author": "Sanjay Soundarajan",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "spectre.css": "^0.5.9"
+  }
+}
