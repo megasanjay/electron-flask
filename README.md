@@ -77,7 +77,7 @@ The return type must be a string, dict, tuple, Response instance, or WSGI callab
 
 ## For quick testing 
 
-If you don't want to have to create the python process everytime, use the following instructions to have a more realtime view of the program. Set the `createPyProc` to not run.
+If you don't want to have to create the python process everytime, use the following instructions to have a more realtime view of the program. Set the `createPyProc` function to not run.
 
 ```js
 // main.js
