@@ -90,8 +90,3 @@ Open the flask backend on the terminal window. You will be able to see all the r
 ```bash
 python ./api.py
 ```
-
-
-
-<br /><br /><br /><br /><br /><br /><br /><br />
-<br /><br /><br /><br /><br /><br /><br /><br />
