@@ -90,3 +90,7 @@ Open the flask backend on the terminal window. You will be able to see all the r
 ```bash
 python ./api.py
 ```
+
+## Packaging and distribution
+
+Everything here works exactly the same as [SODA](https://github.com/bvhpatel/SODA/wiki/Packaging). On Windows, I didn't need to move any file or folders into the package. Should be a drop in replacement. You will need to add the `npm run` scripts for this repo.
